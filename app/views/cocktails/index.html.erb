@@ -1,0 +1,32 @@
+ <div class="home-banner">
+  <h1>Tyrion's Favorite Things</h1>
+</div>
+
+<hr>
+
+<div class="container">
+  <div class="cards">
+    <% @cocktails.each do |cocktail| %>
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="https://www.medieval-recipes.com/noisette/wp-content/uploads/2013/10/ale.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title"><%= cocktail.name %></h5>
+          <p class="card-text">Tyrion's thoughts: "Never forget what you are, the rest of the world will not. Wear it like armor and it can never be used to hurt you."</p>
+          <button type="button" class="btn btn-outline-primary"> <%= link_to "Go to Recipe", cocktail_path(cocktail) %> </button>
+          <button type="button" class="btn btn-outline-danger"> <%= link_to "Delete", cocktail_path(cocktail), method: :delete, data: { confirm: "Are you sure?" } %> </button>
+        </div>
+      </div>
+    <% end %>
+  </div>
+  <hr>
+  <div class="new_cocktail">
+    <button type="button" class="btn btn-primary btn-lg btn-block"> <%= link_to "Add a cocktail", new_cocktail_path, class: "btn btn-primary btn-lg" %> </button>
+
+  </div>
+
+  <div>
+    <!--footer -->
+  </div>
+</div>
+
+

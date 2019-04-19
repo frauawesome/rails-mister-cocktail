@@ -1,0 +1,32 @@
+.navbar-lewagon {
+  justify-content: space-between;
+  background: white;
+  background-color: transparent;
+  transition: 0.5s background-color ease;
+}
+
+.navbar-lewagon-white {
+  background-color: white;
+}
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-lewagon .navbar-brand img {
+  width: 40px;
+}
+
+.home-banner {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZJuZFCJhIu9jfC4ioUpd-W_UBtMwvD2bImrG4gdr6HYnEET_j6g');
+  background-size: cover;
+  height: 75vh;
+  color: white;
+  font-family: arial;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 40vh;
+}
+
+

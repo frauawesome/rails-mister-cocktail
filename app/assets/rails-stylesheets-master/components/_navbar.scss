@@ -20,13 +20,20 @@
 .home-banner {
   background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZJuZFCJhIu9jfC4ioUpd-W_UBtMwvD2bImrG4gdr6HYnEET_j6g');
   background-size: cover;
-  height: 75vh;
+  height: 100vh;
   color: white;
   font-family: arial;
-  font-size: 40px;
   font-weight: bold;
   text-align: center;
   padding-top: 40vh;
+}
+
+.home-banner h1 {
+  font-size: 40px;
+}
+
+.home-banner p {
+  font-size: 16px;
 }
 
 

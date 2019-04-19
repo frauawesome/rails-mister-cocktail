@@ -3,3 +3,18 @@
 @import "avatar";
 @import "navbar";
 @import "card";
+
+.footer {
+  // position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin: 0px;
+}
+
+.new_cocktail {
+  margin-bottom: 24px;
+}
